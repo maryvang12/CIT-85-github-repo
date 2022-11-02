@@ -1,0 +1,39 @@
+h1 {
+    color: pink;
+}
+
+p {
+    color: orange;
+}
+
+html, body {
+    height: 60%;
+
+} 
+
+div {
+    padding: 20px;
+    width: 40%;
+    
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    border: 2px solid lightblue;
+
+}
+
+.spaghetti {
+    color: blueviolet;
+}
+
+.carbonara {
+    color: brown;
+}
+
+.alfredo {
+    color: aquamarine;
+}
