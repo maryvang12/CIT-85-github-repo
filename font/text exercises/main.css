@@ -1,0 +1,35 @@
+h1 {font-family: serif
+   
+}
+
+h2 {font-family: sans-serif
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+}
+
+#one {
+    font-weight: 300;
+}
+
+#two {
+    font-weight: 400;
+}
+
+#three {
+    font-weight: 900;
+}
+
+body {
+    text-transform: uppercase;
+    text-shadow: 5px 5px 20px;
+    font-style: italic;
+    letter-spacing: 1px;
+    
+}
+
+a:link {
+    text-decoration: none;
+}
