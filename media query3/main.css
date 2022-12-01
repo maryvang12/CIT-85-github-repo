@@ -1,0 +1,53 @@
+body {
+    padding: 0;
+    margin: 0;
+    }
+    
+    .main-container{
+    display: flex;
+    }
+    
+    .navigation-container{
+    border: 2px solid red;
+    width: 20%;
+    }
+    
+    .navigation-container nav ul li{
+    list-style-type: none;
+    }
+    
+    .navigation-container nav ul li a{
+    text-decoration: none;
+    display: block;
+    padding-top: 10%;
+    }
+    
+    .paragraph-container{
+    border: 2px solid red;
+    width: 80%;
+    }
+    
+    .paragraph-container p{
+    padding: 15px;
+    }
+    
+    /*This is the media query which will start when the screen width reaches 768px and than the view will become mobile type*/
+    
+    @media screen and (max-width: 768px){
+    .main-container{
+    display: block;
+    }
+    
+    .navigation-container{
+    width: 100%;
+    }
+    
+    .paragraph-container{
+    width: 100%;
+    }
+    
+    .navigation-container nav ul li{
+    display: inline-block;
+    padding: 1%;
+    }
+    }
